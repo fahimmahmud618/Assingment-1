@@ -1,0 +1,21 @@
+
+package Bank;
+
+
+public class Bank_Accounts_Class {
+
+    String name,account_id,phone_num;
+    
+    Bank_Accounts_Class(String get_name, String get_account_id, String get_phone_num){
+        
+        name = get_name ;
+        account_id = get_account_id;
+        phone_num = get_phone_num;
+    }
+    
+    void DisplayingAccountInfo(){
+        System.out.println(name);
+        System.out.println(account_id);
+        System.out.println(phone_num);
+    }
+}
